@@ -43,7 +43,7 @@
 
         while ($row = $stmt->fetch(PDO::FETCH_LAZY)){
             if (password_verify($_GET["password"], $row["password"])){
-                $_SESSION["user"] = $_GET["username"];
+                $_SESSION["user"] = $row["id"];
                 header("Location: http://localhost:8081/web_lab_1+2/homepage.php");
             }
             else {
