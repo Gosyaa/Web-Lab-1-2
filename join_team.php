@@ -18,6 +18,7 @@
             </label><br>
             <input type="submit" value="Присоединиться!" name="submit">
         </form>
+        <a href="homepage.php"> Назад </a>
     </body>
 </html>
 
