@@ -21,6 +21,7 @@
             </label><br>
             <input type="submit" value="Создать!" name="submit">
         </form>
+        <a href="homepage.php"> Назад </a>
     </body>
 </html>
 
@@ -58,6 +59,9 @@
         $stmt = $conn->prepare($sql);
         $stmt->execute(array($_GET["teamname"], password_hash($_GET["code"], PASSWORD_DEFAULT)));
         $team_id = $conn->lastInsertId();
+        $sql = "INSERT INTO category (name, color, team_id) VALUES (?, ?, ?)";
+        $stmt = $conn->prepare($sql);
+        $stmt->execute(array("Обычная", "gray", $team_id));
         $sql = "INSERT INTO `user-team` (user_id, team_id) VALUES (?, ?)";
         $stmt = $conn->prepare($sql);
         $stmt->execute(array($_SESSION["user"], $team_id));

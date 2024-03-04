@@ -17,6 +17,7 @@
             </label><br>
             <input type="submit" name="submit" value="Регистрация"> 
         </form>
+        <a href="welcome.php"> Назад </a>
     </body>
 </html>
 
