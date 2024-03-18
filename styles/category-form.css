@@ -1,0 +1,14 @@
+#back3{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+select{
+    width: 75%;
+}

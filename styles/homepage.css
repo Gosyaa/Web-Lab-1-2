@@ -1,0 +1,45 @@
+.main{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.team-div{
+    border-width: 0.5px;
+    border-radius: 15px;
+    border: solid;
+    flex: 0;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: bisque;
+}
+
+.teams{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+form{
+    margin-top: 20px;
+}

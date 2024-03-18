@@ -1,0 +1,52 @@
+.title{
+    font-family: Caveat;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #1b3b6f;
+}
+
+.title:hover{
+    text-decoration: none;
+}
+
+.header1{
+    text-align: center;
+    height: 10vh;
+    margin-bottom: 0;
+    background-color: #b4e1ff;
+}
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b4e1ff;
+}
+
+.user, .team{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 5px;
+    width: 15vw;
+}
+
+.user{
+    text-align: right;
+}
+
+.team{
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.title-div{
+    flex: 1;
+    text-align: center;
+}

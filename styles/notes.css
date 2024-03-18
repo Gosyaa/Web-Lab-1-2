@@ -1,0 +1,52 @@
+.notes{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.note{
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-color: black;
+    border-width: 1px;
+    border: solid;
+    transition: border-radius 0.5s;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.note:hover{
+    border-radius: 15px;
+}
+
+p{
+    width: 100%;
+}
+
+.pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+form{
+    text-align: center;
+}
+
+.author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-pic{
+    width: 25px;
+}

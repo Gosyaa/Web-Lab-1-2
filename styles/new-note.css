@@ -1,0 +1,29 @@
+#back4{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+}
+
+label{
+    width: 24%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+select{
+    width: 76%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title-field{
+    width: 100%;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
